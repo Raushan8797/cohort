@@ -75,6 +75,7 @@ int main()
 
     cout << "\nAverage Waiting Time = " << total_wt / n << endl;
     cout << "Average Turnaround Time = " << total_tat / n << endl;
+    cout<<"hello";
 
     return 0;
 }
