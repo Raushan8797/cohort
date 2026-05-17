@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html , body{
+    height: 100%;
+    width: 100%;
+}
+body{
+    background-color: black;
+}
+.page{
+    background-color: aliceblue ;
+
+}
+.page:nth-child(2){
+   /* this will target 2nd div */ 
+    background-color: yellow;
+}
+.page:nth-last-child(1){ 
+     /* this will target div from last */
+    background-color: aliceblue;
+}
+#parent{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    /* align-items: flex-end; */
+    /* align-items: flex-start; */
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+#child1{
+    height: 100px;
+    width: 100px;
+    background-color: antiquewhite;
+    flex-shrink: 0;
+}
+#child2{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(231, 235, 10);
+}
+#child3{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(223, 143, 40);
+}
