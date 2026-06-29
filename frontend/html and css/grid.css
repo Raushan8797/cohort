@@ -20,6 +20,7 @@ main{
     "aside section"             
     "footer footer" ;
     gap: 20px;
+    overflow: hidden;
 }
 /* .box{
     border: 2px solid rgb(26, 219, 26);

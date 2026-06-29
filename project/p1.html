@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="p1.css">
+    <link
+  href="https://cdn.jsdelivr.net/npm/remixicon@4.9.0/fonts/remixicon.css"
+  rel="stylesheet"
+/>
+</head>
+<body>
+    <div class="first_page">
+        <div class="nav">
+            <div><p>name</p></div>
+            <button> <i class="ri-login-box-line"></i> Logout</button>
+        </div>
+        <div class="leftp">
+            <div class="logo">
+                <div class="logo1">
+                    <div class="logoimg"> <i class="ri-stack-line"></i></div>
+                    <div class="logotxt"><h1>FinTrack Pro</h1>
+                    <p>Enterprise Finance</p></div>
+                </div>
+                <div class="logo"></div>
+
+            </div>
+            <div class="add_btn"> <button id="add"> <i class="ri-add-line"></i> add transition</button></div>
+        </div>
+        <div class="center_part">
+            <div class="part1">
+                <div class="head">
+                    <h1>Financial Overview</h1>
+                    <p>Real-time tracking application </p>
+                </div>
+                <div class="details">
+                    <div id="c1" class="cards"> <i class="ri-bank-fill"></i>
+                    <h3>Current Balance</h3>
+                    <h2>$0.00</h2></div>
+                    <div id="c2" class="cards"><i class="ri-arrow-right-up-fill"></i>
+                    <h3>Total Income</h3>
+                    <h2>$0.00</h2></div>
+                    <div id="c3" class="cards"><i class="ri-arrow-right-down-long-line"></i>
+                    <h3>Total Expense</h3>
+                    <h2>$0.00</h2></div>
+                    <div id="c4" class="cards"> <i class="ri-wallet-3-fill"></i>
+                    <h3>Total Transactions</h3>
+                    <h2>$0.00</h2></div>
+                </div>
+            </div>
+            <div class="part2"></div>
+        </div>
+    </div>
+
+
+    <div class="page2">
+
+        <div class="modal">
+    <div class="modal-header">
+        <h2>Add Transaction</h2>
+        <button id="close">close</button>
+        
+    </div>
+
+    <form>
+
+        <div class="input-group">
+            <label>Type</label>
+            <select>
+                <option>Expense</option>
+                <option>Income</option>
+            </select>
+        </div>
+
+        <div class="input-group">
+            <label>Description</label>
+            <input type="text" placeholder="e.g. Amazon, Salary, Coffee">
+        </div>
+
+        <div class="row">
+            <div class="input-group">
+                <label>Amount</label>
+                <input type="number">
+            </div>
+
+            <div class="input-group">
+                <label>Date</label>
+                <input type="date" value="2026-06-28">
+            </div>
+        </div>
+
+        <div class="input-group">
+            <label>Category</label>
+            <select>
+                <option>Select a category</option>
+                <option>Food</option>
+                <option>Shopping</option>
+                <option>Salary</option>
+            </select>
+        </div>
+
+        <button id="submit" type="submit">Save Transaction</button>
+
+    </form>
+</div>
+    </div>
+    <script src="1.js"></script>
+</body>
+</html>

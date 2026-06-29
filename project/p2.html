@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Finance Dashboard</title>
+
+    <link rel="stylesheet" href="p2.css">
+
+    <link
+        href="https://cdn.jsdelivr.net/npm/remixicon@4.9.0/fonts/remixicon.css"
+        rel="stylesheet"
+    />
+</head>
+<body>
+
+<div class="first_page">
+
+    
+    <div class="nav">
+        <div class="user">
+            <p>blaezi</p>
+        </div>
+
+        <button>
+            <i class="ri-login-box-line"></i>
+            Logout
+        </button>
+    </div>
+
+    <div class="leftp">
+
+        <div class="logo">
+            <i class="ri-stack-fill"></i>
+
+            <div>
+                <h2>FinTrack Pro</h2>
+                <p>Enterprise Finance</p>
+            </div>
+                    <div class="menu">
+
+            <div class="active">
+                <i class="ri-dashboard-fill"></i>
+                Dashboard
+            </div>
+
+            <div>
+                <i class="ri-settings-3-fill"></i>
+                Settings
+            </div>
+
+        </div>
+
+        </div>
+
+
+
+        <button class="add">
+            <i class="ri-add-line"></i>
+            Add Transaction
+        </button>
+
+    </div>
+
+    
+    <div class="center_part">
+
+        <div class="part1">
+
+            <div class="head">
+                <h1>Financial Overview</h1>
+                <p>Real-time tracking application</p>
+            </div>
+
+            <div class="details">
+
+                <div id="c1" class="cards">
+                    <i class="ri-bank-fill"></i>
+                    <h3>Current Balance</h3>
+                    <h2>$0.00</h2>
+                </div>
+
+                <div id="c2" class="cards">
+                    <i class="ri-arrow-right-up-line"></i>
+                    <h3>Total Income</h3>
+                    <h2>$0.00</h2>
+                </div>
+
+                <div id="c3" class="cards">
+                    <i class="ri-arrow-right-down-line"></i>
+                    <h3>Total Expense</h3>
+                    <h2>$0.00</h2>
+                </div>
+
+                <div id="c4" class="cards">
+                    <i class="ri-wallet-3-fill"></i>
+                    <h3>Total Transactions</h3>
+                    <h2>0</h2>
+                </div>
+
+            </div>
+
+        </div>
+        <div class="part2">
+
+            <div class="graph">
+
+                <h2>Cash Flow Analysis</h2>
+
+                <div class="chart">
+                    Graph Area
+                </div>
+
+            </div>
+
+            <div class="preference">
+
+                <h2>Preferences</h2>
+
+                <div class="dark">
+
+                    <span>Dark Mode</span>
+
+                    <label class="switch">
+                        <input type="checkbox" name="" id="">
+                        <span class="slider"></span>
+                    </label>
+
+                </div>
+
+                <button class="reset">
+                    <i class="ri-delete-bin-line"></i>
+                    Reset All Data
+                </button>
+
+            </div>
+
+            <div class="transaction">
+
+                <h2>All Transactions</h2>
+
+                <div class="search">
+
+                    <input type="text" placeholder="Search Transactions...">
+
+                    <select>
+                        <option>All Types</option>
+                    </select>
+
+                </div>
+
+                <table>
+
+                    <thead>
+
+                        <tr>
+                            <th>DATE</th>
+                            <th>DESCRIPTION</th>
+                            <th>CATEGORY</th>
+                            <th>AMOUNT</th>
+                            <th>ACTIONS</th>
+                        </tr>
+
+                    </thead>
+
+                </table>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+</body>
+</html>
